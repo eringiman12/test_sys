@@ -1,0 +1,57 @@
+/*---------------*/
+/*---予実管理--- */
+/*--------------*/
+
+/*---テーブルの作成----*/
+.yojitu_table {
+    width: 95%;
+    height: auto;
+    text-align: center;
+    border-collapse:collapse;
+    left: 2.5vw;
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.yojitu_copy {
+    width: 95%;
+    height: auto;
+    text-align: center;
+    border-collapse:collapse;
+    left: 2.5vw;
+    position: relative;
+}
+
+table th,table td{
+    border:1px black solid; 
+}
+
+/* 矢印 */
+.arrow {
+    display:inline-block;
+    height:40px;
+    width:200px;
+    background-color:#e71010;
+    top:-6.5vh;
+    left: 45vw;
+    position:relative;
+  }
+  
+.arrow:before {
+    position:absolute;
+    content:"";
+    width:0;
+    height:0;
+    border:150px solid transparent;
+    border-top:30px solid #e71010;
+    top:40px;
+    left: -50px; 
+}
+
+.arrow p {
+    font-size: 2vw;
+    color: white;
+    top: 1vh;
+    left: 3.5vw;
+    position: absolute;
+}

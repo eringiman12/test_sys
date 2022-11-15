@@ -1,0 +1,57 @@
+table {
+  width: 95%;
+  padding: 10px;
+  border-collapse: collapse;
+  left: 2vw;
+  position: relative; }
+  table th {
+    width: 4%;
+    border: 1px solid #afafaf;
+    padding: 10px;
+    background-color: #1fb1b1;
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold; }
+  table td {
+    height: 100px;
+    font-size: 0.8em;
+    border: 1px solid #afafaf; }
+    table td a {
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      height: 100%; }
+  table .member {
+    background-color: #1fb1b1;
+    color: white; }
+    table .member p {
+      font-weight: bold;
+      padding: 5px;
+      font-size: 1.2em; }
+
+.week_select {
+  width: 30%;
+  margin-left: 2vw;
+  margin-bottom: 1vh; }
+
+.overlay {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .overlay .Event_input {
+    background-color: white;
+    width: 500px;
+    margin: 20% auto; }
+
+.Calender_table th:nth-child(7) {
+  color: blue; }
+
+.Calender_table th:nth-child(8) {
+  color: red; }

@@ -1,0 +1,92 @@
+table {
+    width: 90%;
+    padding: 10px;
+    border-collapse: collapse;
+    position: relative;
+
+    th {
+        padding:10px;
+        background-color: rgb(45, 180, 180);
+        border: 0.5px rgb(61, 107, 177) solid;
+        color: white;
+        padding: 2px;
+        min-width: 150px;
+    }
+
+    td{
+        width: 10%;
+        height: 1vh;
+        border: 0.5px rgb(61, 107, 177) solid;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.8vw;
+        padding: 2px;
+
+        a {
+            width:100%;
+            height:100%;
+            display:block;
+            color: rgb(61, 61, 61);
+            &:hover{
+                background-color: #f49d9d;
+            }
+        }
+    }
+}
+
+
+.henko_log_Search {
+    width: 95%;
+    height: 10vh;
+    margin-left:2vw;
+    margin-bottom: 3vh;
+    border-bottom: 1px solid rgb(201, 200, 200);
+    
+    .Search_Table {
+        width: 80%;
+        padding: 10px;
+        border-collapse: collapse;
+        left: 5vw;
+        position: relative;
+
+        input {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+}
+
+.henko_search {
+    width: 5%;
+    height: auto;
+    background-color: #2db4b4;
+    color: white;
+    font-size: 1vw;
+    border: none;
+    z-index: 100000;
+    float: right;
+    margin-top: 2vh;
+    
+    &:hover {
+        color: rgb(95, 94, 94);
+        opacity: 0.9;
+        background-color: white;
+        border: 1px solid rgb(45, 180, 180);
+    }
+}
+
+.Pageng {
+    width: 100%;
+    height:auto;
+    top: 19vh;
+    left: -35vw;
+    position: absolute;
+}
+
+.Naiyo_log {
+    width: 100%;
+    margin-left: 3%;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}   

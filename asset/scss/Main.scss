@@ -1,0 +1,323 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+img,
+ul,
+li,
+table,
+tr,
+th,
+td,
+tbody,
+footer,
+header,
+main,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
+        "MS PGothic", sans-serif;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*****-ログイン後のトップページ-*****/
+/*ログイン名*/
+
+$width80: 80px;
+
+// メインブロック
+.Main_Block {
+    width: 98%;
+    height: auto;
+    margin-top: 2vh;
+    margin-left: 10px;
+    font-size: 0.8vw;
+    margin-bottom: -2vh;
+    position: relative;
+    display: block;
+    p {
+        margin: {
+            top: 5px;
+            bottom: 5px;
+        }
+    }
+
+    .Uriage_kanri {
+        width: 72%;
+        height: auto;
+        padding: 10px;
+        border-left: 1px rgb(32, 127, 235) solid;
+        border-top: 1px rgb(32, 127, 235) solid;
+
+        .uriage_head {
+            clear: both;
+            position: absolute;
+        }
+
+        .Graf {
+            width: 95%;
+            height: 20vh;
+            margin-left: 0;
+            margin-top: 10vh;
+            margin-bottom: 1vh;
+            img {
+                width: 25%;
+                margin-left: 3vw;
+            }
+        }
+
+        .scrol_table {
+            width: 98%;
+            height: 200px;
+            overflow: auto;
+            font-size: 0.5vw;
+            margin-top: 10px;
+            table {
+                margin-top: 5px;
+                border-collapse: collapse;
+
+                .midashi {
+                    width: 80px;
+                    background-color: rgb(56, 160, 245);
+                    color: white;
+                    font-weight: 800;
+                }
+
+                .month {
+                    width: 80px;
+                    background-color: rgb(56, 160, 245);
+                    color: white;
+
+                    text-align: center;
+                }
+            }
+
+            table th,
+            table td {
+                padding: 10px;
+                border: solid 1px black;
+                /*実線 1px 黒*/
+            }
+        }
+    }
+
+    .New_info {
+        width: 30%;
+        height: 25vh;
+        border-left: 1px rgb(32, 127, 235) solid;
+        border-top: 1px rgb(32, 127, 235) solid;
+        border-right: 1px rgb(32, 127, 235) solid;
+        overflow: auto;
+        top: 0;
+        left: 69vw;
+        position: absolute;
+        .Client_Kanri_Button {
+            width: 10%;
+            height: 30px;
+            font-size: 1vw;
+            background-color: rgb(0, 89, 255);
+            color: white;
+            border-radius: 10%;
+            border: 1px solid white;
+            left: 25vw;
+            position: absolute;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid rgb(0, 89, 255);
+                color: rgb(0, 89, 255);
+            }
+        }
+        p {
+            padding: 2px;
+            margin-left: 5px;
+            float: left;
+        }
+    }
+
+    .seikyu_info {
+        width: 30%;
+        height: 34vh;
+        border-left: 1px rgb(32, 127, 235) solid;
+        border-top: 1px rgb(32, 127, 235) solid;
+        border-right: 1px rgb(32, 127, 235) solid;
+        overflow: auto;
+        top: 25vh;
+        left: 69vw;
+        z-index: -100000000;
+        position: absolute;
+        .Client_Kanri_Button {
+            width: 10%;
+            height: 30px;
+            font-size: 1vw;
+            background-color: rgb(0, 89, 255);
+            color: white;
+            border-radius: 10%;
+            border: 1px solid white;
+            left: 25vw;
+            position: absolute;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid rgb(0, 89, 255);
+                color: rgb(0, 89, 255);
+            }
+        }
+
+        .Client_Kanri_Button_mikaku {
+            width: 15%;
+            height: 30px;
+            font-size: 1vw;
+            background-color: red;
+            color: white;
+            border-radius: 10%;
+            border: 1px solid white;
+            left: 20vw;
+            position: absolute;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid rgb(0, 89, 255);
+                color: rgb(0, 89, 255);
+            }
+        }
+
+        a {
+            p {
+                width: 90%;
+                padding: 2px;
+                margin-left: 5px;
+                float: left;
+            }
+        }
+    }
+
+    .Client_Kanri_saishin {
+        width: 35%;
+        height: 30vh;
+        border-left: 1px rgb(32, 127, 235) solid;
+        border-top: 1px rgb(32, 127, 235) solid;
+        border-bottom: 1px rgb(32, 127, 235) solid;
+        display: inline-block;
+        position: relative;
+        .Client_Kanri_Button {
+            width: 10%;
+            height: 30px;
+            font-size: 1vw;
+            background-color: rgb(0, 89, 255);
+            color: white;
+            border-radius: 10%;
+            border: 1px solid white;
+            left: 30vw;
+            position: absolute;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid rgb(0, 89, 255);
+                color: rgb(0, 89, 255);
+            }
+        }
+        p {
+            width: 90%;
+            padding: 2px;
+            margin-left: 5px;
+            float: left;
+        }
+    }
+
+    .Anken_kanri {
+        display: inline-block;
+        width: 36%;
+        height: 30vh;
+        border-left: 1px rgb(32, 127, 235) solid;
+        border-top: 1px rgb(32, 127, 235) solid;
+        border-bottom: 1px rgb(32, 127, 235) solid;
+        box-sizing: 0;
+        position: absolute;
+        vertical-align: bottom;
+
+        .Client_Kanri_Button {
+            width: 10%;
+            height: 30px;
+            font-size: 1vw;
+            background-color: rgb(0, 89, 255);
+            color: white;
+            border-radius: 10%;
+            border: 1px solid white;
+            left: 30vw;
+            position: absolute;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid rgb(0, 89, 255);
+                color: rgb(0, 89, 255);
+            }
+        }
+        p {
+            width: 90%;
+            padding: 2px;
+            margin-left: 5px;
+            float: left;
+        }
+    }
+
+    .Urikake_kanri {
+        display: inline-block;
+        width: 30%;
+        height: 30vh;
+        border: 1px rgb(32, 127, 235) solid;
+        box-sizing: 0;
+        left: 69vw;
+        position: absolute;
+        vertical-align: bottom;
+
+        .Client_Kanri_Button {
+            width: 10%;
+            height: 30px;
+            font-size: 1vw;
+            background-color: rgb(0, 89, 255);
+            color: white;
+            border-radius: 10%;
+            border: 1px solid white;
+            left: 25vw;
+            position: absolute;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid rgb(0, 89, 255);
+                color: rgb(0, 89, 255);
+            }
+        }
+
+        p {
+            width: 90%;
+            padding: 2px;
+            margin-left: 5px;
+            float: left;
+        }
+    }
+}

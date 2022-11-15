@@ -1,0 +1,204 @@
+
+
+.Box_L {
+    width: 35%;
+}
+
+.Box_LL {
+    width: 55%;
+}
+
+.Box_S {
+    width: 15%;
+}
+
+.Box_SS {
+    width: 5%;
+    text-align: center;
+}
+
+.sub{
+    display:none;
+    width: 100%;
+    padding: 0;
+    background-color: white;
+    position: relative;
+    
+    ul {
+        li{
+            padding: 5px;
+            p {
+                margin-left: 20px;
+                font-weight: 900;
+                
+            }
+        }
+    }
+}
+
+.aco{
+   width:60%;
+   padding:10px;
+   background:rgb(0, 113, 128);
+   left: 20px;
+   top: 10px;
+   position: relative;
+   h3 {
+    color: white;
+    font-weight: 700;
+    top: -10px;
+    position: relative;
+    }
+}
+
+.aco2{
+    width:60%;
+    padding:10px;
+    background:rgb(0, 113, 128);
+    left: 20px;
+    top: 10px;
+    position: relative;
+    h3 {
+        color: white;
+        font-weight: 700;
+        margin-top: 3vh;
+        top: -10px;
+        position: relative;
+    } 
+}
+
+.acoTriger{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin-top: 20px;
+    width: 30px;
+    height:30px;
+    text-align:center;
+    cursor: pointer;
+    transition: all .4s;
+    color: white;
+    transform-origin: center center;
+
+}
+
+.acoTriger.opened {
+        display: inline-block;
+        transition: all .4s;
+        box-sizing: border-box;
+        -webkit-transform:  rotate(90deg);
+        transform: rotate(90deg);
+        justify-content: center;
+        align-items: center
+}
+
+.workflow_box {
+    width:35%;
+    height: 50vh;
+    border-left: 1px solid rgb(120, 190, 255);
+    border-bottom: 1px solid rgb(120, 190, 255);
+    border-right: 1px solid rgb(120, 190, 255);
+    margin: 0;
+    float: right;
+    left: -20px;
+    top: 10px;
+    position:relative;
+    overflow-x: hidden;
+
+    .tab-content{
+        display: none;
+        width: 98%;
+        height: 30vh; 
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        margin-right: auto;
+        margin-left: auto;
+
+        h5 {
+            width: 50%;
+            background-color: rgb(43, 184, 43);
+            padding: 5px;
+            font-size: 0.9em;
+            color: white;
+            margin-top: 2vh;
+        }
+
+        .Flow_Name {
+            width: 100%;
+            height: 10vh;
+            border: 1px solid rgb(141, 186, 216);
+            overflow: auto;
+            p {
+                margin-top: 20px;
+                font-size: 0.9em;
+                padding: 10px;
+            }
+        }
+
+        .Shain_select {
+            width: 50%;
+            height: auto;
+
+            h4 {
+                background-color: rgb(43, 184, 43);
+                color: white;
+                padding: 10px;
+                margin-bottom: -2vh;
+            }
+            
+            
+        }
+    }
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+p{
+margin: 0;
+}
+.wrap-tab{
+width: 30%;
+overflow: hidden;
+}
+.tab-radio{
+display: none;
+}
+.list-tab-label{
+display: flex;
+margin: 0 -2px;
+border-bottom: 3px solid #5bbee5;
+}
+.list-tab-label > li{
+margin: 0 2px;
+width: 100%;
+text-align: center;
+}
+.tab-label{
+display: block;
+padding: 0.5em 1em;
+color: #fff;
+background: #ccc;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+#tab-radio1:checked ~ .list-tab-label #tab-label1,
+#tab-radio2:checked ~ .list-tab-label #tab-label2,
+#tab-radio3:checked ~ .list-tab-label #tab-label3,
+#tab-radio4:checked ~ .list-tab-label #tab-label4{
+background: #5bbee5;
+
+}
+
+
+#tab-radio1:checked ~ .wrap-tab-content #tab-content1,
+#tab-radio2:checked ~ .wrap-tab-content #tab-content2,
+#tab-radio3:checked ~ .wrap-tab-content #tab-content3,
+#tab-radio4:checked ~ .wrap-tab-content #tab-content4{
+display: block;
+
+}

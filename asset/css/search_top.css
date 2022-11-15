@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*-----------------*/
+/* 顧客管理検索トップ */
+/*----------------*/
+/* 検索結果エリア */
+/*-----------------*/
+/* 顧客管理検索トップ */
+/*----------------*/
+/* 検索エリア */
+/* 検索エリア */
+.search_top {
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 2vw;
+  margin-bottom: 3vh;
+  position: relative; }
+  .search_top table {
+    width: 95%;
+    padding: 10px;
+    border-collapse: collapse;
+    position: relative; }
+    .search_top table th {
+      background-color: #2db4b4;
+      border: 1px solid black;
+      color: white; }
+    .search_top table td {
+      width: 10%;
+      border: 1px solid black;
+      padding: 1px; }
+      .search_top table td input {
+        width: 100%;
+        height: 4vh; }
+    .search_top table .td_title {
+      background-color: #364f6b;
+      padding-left: 1vw;
+      color: white; }
+    .search_top table .kin {
+      width: 10%; }
+    .search_top table .search_box_L {
+      width: 40%;
+      margin-left: 7px; }
+    .search_top table .Mon {
+      width: 40%;
+      height: 4vh;
+      margin-left: 9px; }
+    .search_top table .Mon02 {
+      width: 35%;
+      height: 4vh;
+      margin-left: 9px; }
+    .search_top table .Mon03 {
+      width: 90%;
+      height: 4vh;
+      margin-left: 9px; }
+    .search_top table select {
+      width: 100%;
+      height: 4vh; }
+    .search_top table .YMD {
+      width: 40%;
+      height: 4vh;
+      margin-left: 1vw; }
+  .search_top .submit_button_box {
+    width: 40%;
+    margin-top: 0;
+    margin-left: 70vw;
+    text-align: center;
+    top: 50vh;
+    left: -18vw;
+    position: absolute; }
+    .search_top .submit_button_box .btn-flat-border {
+      font-size: 1.1vw;
+      width: 40%;
+      height: 5vh;
+      display: inline-block;
+      padding: 0.3em 1em;
+      text-decoration: none;
+      background-color: #2db4b4;
+      color: white;
+      font-size: 1vw;
+      border: none;
+      transition: .4s;
+      position: relative; }
+      .search_top .submit_button_box .btn-flat-border:hover {
+        color: #5f5e5e;
+        opacity: 0.9;
+        background-color: white;
+        border: none;
+        outline: 1px solid #2db4b4;
+        position: relative; }
+    .search_top .submit_button_box .btn-flat-border02 {
+      font-size: 1.1vw;
+      width: 40%;
+      height: 5vh;
+      display: inline-block;
+      padding: 0.3em 1em;
+      text-decoration: none;
+      background-color: #2db4b4;
+      color: white;
+      font-size: 1vw;
+      border: none;
+      transition: .4s;
+      top: 90vh;
+      position: relative; }
+      .search_top .submit_button_box .btn-flat-border02:hover {
+        color: #5f5e5e;
+        opacity: 0.9;
+        background-color: white;
+        border: none;
+        outline: 1px solid #2db4b4;
+        position: relative; }

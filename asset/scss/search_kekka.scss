@@ -1,0 +1,123 @@
+/*-----------------*/
+/* 顧客管理検索結果 */
+/*----------------*/
+
+/* 検索結果エリア */
+/*-----------------*/
+/* 顧客管理検索トップ */
+/*----------------*/
+
+// ページングエリア
+.Pageng {
+    width: 100%;
+    height: auto;
+    margin-left: 5vw;
+}
+
+.search_button_client {
+    width: 3%;
+    background-color: rgb(45, 180, 180);
+    padding:5px;
+    border:none;
+    border-radius: 3px;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    color: white;
+    font-size: 0.8vw;
+
+    &:hover {
+        background-color: white;
+        outline: 1px solid rgb(45, 180, 180);
+        color: rgb(45, 180, 180);
+    }
+}
+
+.Search_Words {
+    clear: both;
+    width: 100%;
+    margin-left: 0;
+    font-size: 0.8vw;
+    p {
+        margin: 1vw;
+    }
+}
+
+/* 検索エリア */
+/* 検索エリア */
+.box22 {
+    position: relative;
+
+    .Not_Found {
+        position: absolute;         
+        padding: 20px; 
+        top:  70vh;
+        bottom:  0;
+        left:  0;
+        right:  0;
+        margin:  auto;
+        width:  25%;
+        height: 80px;
+        text-align: center;
+    }
+}
+
+.search_kekka {
+    width: 90%;
+    border-right: none;
+    top: 2vh;
+    left: 5vw;
+    position: relative; 
+    overflow: auto;
+
+    p {
+        width: 90%;
+        font-size: 1.3vw;
+        margin-left: 1vw;
+        border-bottom: 1px rgb(226, 164, 71) solid;
+    }
+
+    table {
+        width:100%;
+        height:auto;
+        border-collapse: collapse;
+        table-layout: fixed;
+
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: rgb(45, 180, 180);
+            border: 0.5px solid rgb(177, 177, 177);
+            color: white;
+        }
+
+        .Nums {
+            width: 70px;
+            height: 20px;
+            font-weight:800;
+            font-size: 0.9vw;  
+            padding: 5px;
+
+        }
+
+        .Nums_M {
+            width: 150px;
+            height: 20px;
+            font-weight:800;
+            font-size: 1vw;  
+        }
+
+        .Num_Minddle_MM {
+            width: 200px;
+            font-size: 0.9vw;  
+        }
+
+        td{
+            font-size: 0.8vw;
+            padding: 3px 10px;
+            border: 0.5px solid rgb(177, 177, 177);
+            text-align: center;
+        }
+    }
+    
+}

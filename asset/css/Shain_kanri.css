@@ -1,0 +1,1160 @@
+@charset "UTF-8";
+.workflow_box {
+  width: 98%;
+  height: auto; }
+  .workflow_box .tab-content {
+    display: none;
+    width: 98%;
+    height: auto;
+    margin-top: 1vh; }
+    .workflow_box .tab-content .button_box {
+      width: 50%;
+      margin: 0;
+      margin-top: 0;
+      top: -5vh;
+      left: 8vw;
+      position: relative;
+      z-index: 10; }
+      .workflow_box .tab-content .button_box .shain_koushin {
+        top: 0;
+        left: 65vw;
+        position: absolute;
+        background-color: #2db4b4;
+        color: white;
+        border: none;
+        padding: 2px;
+        font-size: 0.8vw;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 10%; }
+        .workflow_box .tab-content .button_box .shain_koushin:hover {
+          color: #5f5e5e;
+          opacity: 0.9;
+          background-color: white;
+          border: 1px solid #2db4b4; }
+      .workflow_box .tab-content .button_box .shain_del {
+        top: 0;
+        left: 75vw;
+        position: absolute;
+        background-color: #2db4b4;
+        color: white;
+        border: none;
+        padding: 2px;
+        font-size: 0.8vw;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 10%;
+        text-align: center; }
+        .workflow_box .tab-content .button_box .shain_del:hover {
+          color: #5f5e5e;
+          opacity: 0.9;
+          background-color: white;
+          border: 1px solid #2db4b4; }
+      .workflow_box .tab-content .button_box .shain_hensyu {
+        top: 0;
+        left: 70vw;
+        position: absolute;
+        position: absolute;
+        background-color: #2db4b4;
+        color: white;
+        border: none;
+        padding: 2px;
+        font-size: 0.8vw;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 10%;
+        text-align: center; }
+        .workflow_box .tab-content .button_box .shain_hensyu:hover {
+          color: #5f5e5e;
+          opacity: 0.9;
+          background-color: white;
+          border: 1px solid #2db4b4; }
+      .workflow_box .tab-content .button_box .shain_csv_syutu {
+        top: 0;
+        left: 80vw;
+        position: absolute;
+        position: absolute;
+        background-color: #2db4b4;
+        color: white;
+        border: none;
+        padding: 2px;
+        font-size: 0.8vw;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 10%;
+        text-align: center; }
+        .workflow_box .tab-content .button_box .shain_csv_syutu:hover {
+          color: #5f5e5e;
+          opacity: 0.9;
+          background-color: white;
+          border: 1px solid #2db4b4; }
+      .workflow_box .tab-content .button_box .shain_csv_tori {
+        top: 0;
+        left: 85vw;
+        position: absolute;
+        position: absolute;
+        background-color: #2db4b4;
+        color: white;
+        border: none;
+        padding: 2px;
+        font-size: 0.8vw;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 12%;
+        text-align: center; }
+        .workflow_box .tab-content .button_box .shain_csv_tori:hover {
+          color: #5f5e5e;
+          opacity: 0.9;
+          background-color: white;
+          border: 1px solid #2db4b4; }
+    .workflow_box .tab-content .tab_pages {
+      width: 65%;
+      height: 150vh;
+      position: relative;
+      z-index: 1;
+      border: 1px solid #2db4b4;
+      background-color: #fff; }
+      .workflow_box .tab-content .tab_pages .shain_info_box {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        margin-left: 0;
+        position: absolute; }
+      .workflow_box .tab-content .tab_pages .ido_rireki {
+        width: 100%;
+        height: 60vh;
+        margin-left: 0.5vw;
+        overflow-y: auto;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+        .workflow_box .tab-content .tab_pages .ido_rireki table {
+          width: 95%;
+          border-collapse: collapse;
+          margin-left: 0; }
+          .workflow_box .tab-content .tab_pages .ido_rireki table td {
+            width: 1%;
+            border: 0.5px solid #d6d6d6;
+            padding-left: 0;
+            text-align: center;
+            font-size: 0.7vw; }
+          .workflow_box .tab-content .tab_pages .ido_rireki table .Koumoku02 {
+            width: 5%;
+            background-color: #2db4b4;
+            color: white;
+            font-size: 1vw;
+            padding: 0;
+            border: 0.5px solid #d6d6d6; }
+    .workflow_box .tab-content .Shain_Info_Box_Read {
+      width: 100%;
+      height: 100vh;
+      margin-top: -25vh;
+      margin-bottom: 10vh; }
+      .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi {
+        width: 35%;
+        height: 75vh;
+        left: 0;
+        top: 6vh;
+        position: absolute; }
+        .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi table {
+          width: 70%;
+          border-collapse: collapse;
+          margin-left: 0.5vw; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi table td {
+            border: 0.5px solid #d6d6d6;
+            margin-bottom: 0; }
+            .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi table td p {
+              font-size: 0.8em;
+              padding-left: 1vw; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi table .Koumoku {
+            width: 20%;
+            background-color: #2db4b4;
+            color: white; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi table .inuput_width {
+            width: 99%;
+            height: 3vh;
+            padding-left: 0.5vw;
+            border: none; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi table .Input_Box {
+            display: block;
+            width: 80%;
+            margin-left: 0.1vw; }
+        .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box {
+          width: 100%;
+          left: 0;
+          top: 0;
+          position: relative; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box #output {
+            background-color: #2db4b4;
+            padding: 4px;
+            border-radius: 2px;
+            color: white; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box .open_button {
+            background-color: #2db4b4;
+            color: white;
+            font-size: 0.8vw;
+            border: none;
+            padding: 5px;
+            border-radius: 10% 10% 10% 10%; }
+            .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box .open_button:hover {
+              color: #5f5e5e;
+              opacity: 0.9;
+              background-color: white;
+              outline: 1px solid #2db4b4; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box .input_box {
+            height: 4vh; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box .SF_Button_shibori {
+            background-color: #2db4b4;
+            color: white;
+            font-size: 0.8vw;
+            border: none;
+            padding: 5px;
+            border-radius: 10% 10% 10% 10%; }
+            .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box .SF_Button_shibori:hover {
+              color: #5f5e5e;
+              opacity: 0.9;
+              background-color: white;
+              outline: 1px solid #2db4b4; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box .SF_Button_Reset {
+            background-color: #2db4b4;
+            color: white;
+            font-size: 0.8vw;
+            border: none;
+            padding: 5px;
+            border-radius: 10% 10% 10% 10%; }
+            .workflow_box .tab-content .Shain_Info_Box_Read .shiborikomi .Search_Form_Buttton_Box .SF_Button_Reset:hover {
+              color: #5f5e5e;
+              opacity: 0.9;
+              background-color: white;
+              outline: 1px solid #2db4b4; }
+      .workflow_box .tab-content .Shain_Info_Box_Read .Table_box {
+        width: 70%;
+        height: 150vh;
+        overflow-y: auto;
+        margin-top: 0;
+        top: 28vh;
+        left: -3vw;
+        position: relative; }
+        .workflow_box .tab-content .Shain_Info_Box_Read .Table_box table {
+          width: 100%;
+          padding: 0;
+          border-collapse: collapse; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .Table_box table thead .Big_size {
+            position: sticky;
+            top: -1px;
+            background-color: #2db4b4;
+            border: 0.5px white solid;
+            color: white;
+            min-width: 200px;
+            font-size: 0.8vw; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .Table_box table thead .small_size {
+            position: sticky;
+            top: -1px;
+            background-color: #2db4b4;
+            border: 0.5px white solid;
+            color: white;
+            min-width: 100px;
+            font-size: 0.8vw; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .Table_box table thead td {
+            font-size: 0.5vw;
+            padding: 0; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .Table_box table .shain_search:nth-child(odd) {
+            background-color: #096969;
+            color: white; }
+            .workflow_box .tab-content .Shain_Info_Box_Read .Table_box table .shain_search:nth-child(odd) a {
+              color: white; }
+        .workflow_box .tab-content .Shain_Info_Box_Read .Table_box .Not_Found {
+          width: 95%;
+          height: 70vh;
+          left: 1vw;
+          position: relative;
+          border: 0.5px #a8a6a6 solid; }
+          .workflow_box .tab-content .Shain_Info_Box_Read .Table_box .Not_Found p {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            font-size: 1vw;
+            transform: translate(0, -50%);
+            color: #04305a; }
+    .workflow_box .tab-content .shin {
+      padding: 20px; }
+      .workflow_box .tab-content .shin table {
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse; }
+        .workflow_box .tab-content .shin table .Date_M_T {
+          background-color: #2db4b4;
+          border: 0.5px white solid;
+          color: white;
+          padding-left: 3px; }
+      .workflow_box .tab-content .shin .inuput_width {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0.5px #c2bfbf solid;
+        padding: 3px; }
+      .workflow_box .tab-content .shin .inuput_width_day {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0.5px #c2bfbf solid;
+        padding: 0; }
+      .workflow_box .tab-content .shin .inuput_width_select {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0.5px #c2bfbf solid;
+        padding: 1px; }
+    .workflow_box .tab-content .Shain_select {
+      width: 50%;
+      height: auto; }
+      .workflow_box .tab-content .Shain_select h4 {
+        background-color: #2bb82b;
+        color: white;
+        padding: 10px;
+        margin-bottom: -2vh; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 0; }
+  table td {
+    border: 0.5px solid #d6d6d6;
+    padding-left: 0;
+    text-align: center; }
+    table td p {
+      font-size: 0.8em; }
+  table .Koumoku {
+    width: 35%;
+    background-color: #2db4b4;
+    color: white;
+    font-size: 1vw;
+    padding: 5px; }
+  table .Koumoku02 {
+    width: 5%;
+    background-color: #2db4b4;
+    color: white;
+    font-size: 1vw;
+    padding: 0;
+    border: 0.5px solid #d6d6d6; }
+  table .inuput_width {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: none; }
+
+.overlay {
+  display: none;
+  position: fixed;
+  z-index: 10000000;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .overlay .Event_input {
+    background-color: white;
+    width: 500px;
+    margin: 20% auto; }
+
+.search_block {
+  width: 100%; }
+  .search_block .Open {
+    cursor: pointer;
+    width: 5%;
+    font-size: 1vw;
+    background-color: #2db4b4;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: absolute; }
+    .search_block .Open:hover {
+      border: 1px #2db4b4 solid;
+      background-color: white;
+      color: #2db4b4; }
+
+.Access_Block {
+  height: 65vh;
+  overflow: auto;
+  margin-top: 5vh;
+  margin-bottom: 4vh; }
+  .Access_Block .button_block {
+    width: 100%; }
+    .Access_Block .button_block .Ac_up {
+      border: none;
+      cursor: pointer;
+      width: 5%;
+      font-size: 1vw;
+      background-color: #2db4b4;
+      color: white;
+      text-align: center; }
+      .Access_Block .button_block .Ac_up:hover {
+        border: 1px #2db4b4 solid;
+        background-color: white;
+        color: #2db4b4; }
+  .Access_Block .Access_table {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-collapse: collapse; }
+    .Access_Block .Access_table th {
+      position: sticky;
+      top: -0.5vh;
+      z-index: 1;
+      padding: 10px;
+      background-color: #2db4b4;
+      border: 0.5px #3d6bb1 solid;
+      color: white;
+      padding: 2px;
+      min-width: 150px; }
+    .Access_Block .Access_table td {
+      width: 10%;
+      height: 1vh;
+      border: 0.5px #3d6bb1 solid;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.8vw;
+      padding: 2px; }
+      .Access_Block .Access_table td select {
+        display: block;
+        width: 100%;
+        height: 100%; }
+
+.Event_input {
+  width: 40%; }
+  .Event_input table {
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse; }
+    .Event_input table th {
+      padding: 10px;
+      background-color: #2db4b4;
+      border: 0.5px #3d6bb1 solid;
+      color: white;
+      padding: 2px;
+      min-width: 150px; }
+    .Event_input table td {
+      width: 10%;
+      height: 1vh;
+      border: 0.5px #3d6bb1 solid;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.8vw;
+      padding: 2px; }
+  .Event_input .close {
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    font-size: 1vw;
+    background-color: #2db4b4;
+    padding: 5px;
+    border-radius: 5%;
+    margin-bottom: 2vh;
+    margin-left: 80%;
+    margin-top: 2vh;
+    color: white; }
+    .Event_input .close:hover {
+      border: 1px #2db4b4 solid;
+      background-color: white;
+      color: #2db4b4; }
+
+.tab-radio {
+  display: none; }
+
+.list-tab-label {
+  width: 100%;
+  height: 100%;
+  margin-left: -0.5vw;
+  float: left;
+  margin-top: -2vh;
+  font-size: 0.8vw;
+  padding: 0; }
+
+.list-tab-label > li {
+  margin: 0 2px;
+  width: 2%;
+  height: 20%;
+  text-align: center;
+  position: relative;
+  left: 0; }
+
+.tab-label {
+  display: block;
+  color: #fff;
+  padding: 10px;
+  background-color: #154e4e;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-bottom: 1px solid white; }
+
+#tab-radio1:checked ~ .list-tab-label #tab-label1,
+#tab-radio2:checked ~ .list-tab-label #tab-label2,
+#tab-radio3:checked ~ .list-tab-label #tab-label3,
+#tab-radio4:checked ~ .list-tab-label #tab-label4 {
+  background-color: #2db4b4;
+  border-bottom: 3px solid #bbfaea; }
+
+#tab-radio1:checked ~ .wrap-tab-content #tab-content1,
+#tab-radio2:checked ~ .wrap-tab-content #tab-content2,
+#tab-radio3:checked ~ .wrap-tab-content #tab-content3,
+#tab-radio4:checked ~ .wrap-tab-content #tab-content4 {
+  display: block;
+  left: 2vw;
+  position: relative; }
+
+/*タブ切り替え全体のスタイル*/
+.tabs {
+  width: 100%;
+  margin: 0 auto;
+  left: 1vw;
+  position: absolute; }
+
+/*タブのスタイル*/
+.tab_item {
+  width: calc(100% / 3);
+  border-bottom: 3px solid #5ab4bd;
+  background-color: #f5fafa;
+  border-right: 1px #dbdbdb solid;
+  font-size: 0.8vw;
+  padding: 5px;
+  text-align: center;
+  color: #565656;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease; }
+
+.tab_item:hover {
+  opacity: 0.75; }
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+  display: none; }
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+  display: none;
+  padding: 40px 40px 0;
+  clear: both;
+  overflow: hidden; }
+  .tab_content .shain_shinki {
+    top: 5vw;
+    left: 82vw;
+    position: absolute;
+    background-color: #2db4b4;
+    color: white;
+    border: none;
+    padding: 2px;
+    font-size: 0.8vw;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    text-align: center; }
+    .tab_content .shain_shinki:hover {
+      color: #5f5e5e;
+      opacity: 0.9;
+      background-color: white;
+      border: 1px solid #2db4b4; }
+
+/*選択されているタブのコンテンツのみを表示*/
+#all:checked ~ #all_content,
+#programming:checked ~ #programming_content,
+#design:checked ~ #design_content {
+  display: block; }
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+  background-color: #5ab4bd;
+  color: #fff; }
+
+#tab-area input[type="radio"] {
+  display: none; }
+
+#tab-area .tab-box div {
+  height: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.7s; }
+
+#tab1:checked ~ .tab-box #tab-content1,
+#tab2:checked ~ .tab-box #tab-content2,
+#tab3:checked ~ .tab-box #tab-content3 {
+  height: auto;
+  opacity: 1;
+  padding: 10px; }
+
+.tab_sub_shain_info {
+  width: 50%;
+  margin-top: -82vh;
+  margin-left: 0;
+  left: 63vw;
+  position: relative; }
+
+.tab_sub_shain_info > input[type="radio"] {
+  display: none; }
+
+.tab_btns {
+  display: flex;
+  margin: 0px -2px -1px; }
+
+.tab_btn {
+  padding: 5px;
+  margin: 0px 2px;
+  width: 10%;
+  border: 1px solid #2db4b4;
+  position: relative;
+  text-align: center;
+  font-size: 0.7vw; }
+
+.tab_btn:hover {
+  cursor: pointer; }
+
+.tab_page {
+  display: none; }
+  .tab_page .Nothing {
+    font-size: 1vw;
+    color: #04305a;
+    margin: auto;
+    top: 20%;
+    left: 35%;
+    position: absolute; }
+
+.tab_sub_shain_info > #tab_01:checked ~ .tab_btns > label[for="tab_01"],
+.tab_sub_shain_info > #tab_02:checked ~ .tab_btns > label[for="tab_02"],
+.tab_sub_shain_info > #tab_03:checked ~ .tab_btns > label[for="tab_03"],
+.tab_sub_shain_info > #tab_04:checked ~ .tab_btns > label[for="tab_04"] {
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid #fff; }
+
+.tab_sub_shain_info > #tab_01:checked ~ .tab_pages > .tab_page:nth-of-type(1),
+.tab_sub_shain_info > #tab_02:checked ~ .tab_pages > .tab_page:nth-of-type(2),
+.tab_sub_shain_info > #tab_03:checked ~ .tab_pages > .tab_page:nth-of-type(3),
+.tab_sub_shain_info > #tab_04:checked ~ .tab_pages > .tab_page:nth-of-type(4) {
+  display: block; }
+
+.tab_shin > input[type="radio"] {
+  display: none; }
+
+.tab_btns_shin_main {
+  display: flex; }
+
+.tab_btn_shin {
+  padding: 1em;
+  margin: 0px 2px;
+  border: 1px solid #2db4b4;
+  text-align: center; }
+
+.tab_btn_shin:hover {
+  cursor: pointer; }
+
+.tab_pages_shin_main {
+  position: relative;
+  z-index: 1;
+  border: 1px solid #2db4b4;
+  background-color: #fff;
+  margin-bottom: 1vh; }
+
+.tab_pages_shin {
+  display: none; }
+
+.tab_shin > #tab_shin_01:checked ~ .tab_btns_shin_main > label[for="tab_shin_01"],
+.tab_shin > #tab_shin_02:checked ~ .tab_btns_shin_main > label[for="tab_shin_02"],
+.tab_shin > #tab_shin_03:checked ~ .tab_btns_shin_main > label[for="tab_shin_03"] {
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid #fff; }
+
+.tab_shin > #tab_shin_01:checked ~ .tab_pages_shin_main > .tab_pages_shin:nth-of-type(1),
+.tab_shin > #tab_shin_02:checked ~ .tab_pages_shin_main > .tab_pages_shin:nth-of-type(2),
+.tab_shin > #tab_shin_03:checked ~ .tab_pages_shin_main > .tab_pages_shin:nth-of-type(3) {
+  display: block; }
+
+.myModal_popUp,
+input[name="myModal_switch"],
+#myModal_open + label ~ label {
+  display: none; }
+
+#myModal_open + label,
+#myModal_close-button + label {
+  cursor: pointer; }
+
+.myModal_popUp {
+  animation: fadeIn 0s ease 0s 0 normal;
+  -webkit-animation: fadeIn 0s ease 0s 1 normal; }
+
+#myModal_open:checked ~ #myModal_close-button + label {
+  animation: fadeIn 0s ease 0s 1 normal;
+  -webkit-animation: fadeIn 0s ease 0s 0 normal; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+#myModal_open:checked + label ~ .myModal_popUp {
+  background: #fff;
+  display: block;
+  width: 90%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 998; }
+
+#myModal_open:checked + label ~ .myModal_popUp > .myModal_popUp-content {
+  width: calc(100% - 40px);
+  height: calc(100% - 20px - 44px);
+  padding: 10px 20px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; }
+
+.honbun {
+  top: 2vh;
+  position: relative; }
+
+#myModal_open:checked + label + #myModal_close-overlay + label {
+  background: rgba(0, 0, 0, 0.7);
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  z-index: 997; }
+
+#myModal_open:checked ~ #myModal_close-button + label {
+  display: block;
+  background: #fff;
+  text-align: center;
+  font-size: 25px;
+  line-height: 44px;
+  width: 90%;
+  height: 44px;
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  z-index: 999; }
+
+#myModal_open:checked ~ #myModal_close-button + label::before {
+  content: "×"; }
+
+#myModal_open:checked ~ #myModal_close-button + label::after {
+  content: "CLOSE";
+  margin-left: 5px;
+  font-size: 80%; }
+
+@media (min-width: 768px) {
+  #myModal_open:checked + label ~ .myModal_popUp {
+    width: 600px;
+    height: 200px; }
+
+  #myModal_open:checked + label ~ .myModal_popUp > .myModal_popUp-content {
+    height: calc(100% - 20px); }
+
+  #myModal_open:checked ~ #myModal_close-button + label {
+    width: 44px;
+    height: 44px;
+    left: 50%;
+    top: 50%;
+    margin-left: 256px;
+    margin-top: -135px;
+    overflow: hidden; }
+
+  #myModal_open:checked ~ #myModal_close-button + label::after {
+    display: none; } }
+.modal_wrap .tri {
+  display: none; }
+
+.modal_overlay {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.5s, transform 0s 0.5s;
+  transform: scale(0); }
+
+.modal_trigger {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.modal_content {
+  position: relative;
+  align-self: center;
+  width: 60%;
+  max-width: 800px;
+  padding: 30px 30px 15px;
+  box-sizing: border-box;
+  background: #fff;
+  line-height: 1.4em;
+  transition: 0.5s; }
+  .modal_content select {
+    padding: 5px;
+    border: 0.5px #a8a6a6 solid; }
+  .modal_content .SF_Button_Serach {
+    background-color: #2db4b4;
+    color: white;
+    font-size: 0.8vw;
+    border: none;
+    padding: 5px;
+    border-radius: 10% 10% 10% 10%; }
+    .modal_content .SF_Button_Serach:hover {
+      color: #5f5e5e;
+      opacity: 0.9;
+      background-color: white;
+      outline: 1px solid #2db4b4; }
+
+.close_button {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 24px;
+  cursor: pointer; }
+
+.modal_wrap input:checked ~ .modal_overlay {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s; }
+
+.search_title {
+  width: 100%;
+  margin-bottom: 1vh;
+  float: left; }
+  .search_title p {
+    width: 50%;
+    background-color: #2db4b4;
+    color: white;
+    padding: 5px;
+    font-size: 0.8vw; }
+
+.search_title_check {
+  width: 100%; }
+  .search_title_check .title_check {
+    width: 30%;
+    background-color: #2db4b4;
+    color: white;
+    padding: 5px;
+    font-size: 0.8vw; }
+  .search_title_check .check_box {
+    width: 80%;
+    margin-top: 1vh; }
+
+.search_title_select {
+  width: 100%;
+  display: flex;
+  margin-top: 1vh;
+  margin-bottom: 1vh; }
+  .search_title_select .title_select {
+    width: 15%;
+    background-color: #2db4b4;
+    color: white;
+    text-align: center;
+    padding: 2px; }
+  .search_title_select select {
+    width: 30%;
+    padding: 2px;
+    margin-left: 1px;
+    border: 0.5px solid #b1b1b1; }
+  .search_title_select .shosai {
+    background-color: #2db4b4;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin-left: 1vw; }
+    .search_title_select .shosai:hover {
+      color: #5f5e5e;
+      opacity: 0.9;
+      background-color: white;
+      outline: 1px solid #2db4b4; }
+  .search_title_select .hikaku {
+    padding: 6px;
+    margin-left: 1vw; }
+  .search_title_select .inuput_type_search {
+    width: 30%;
+    height: 100%;
+    border: 0.5px solid #b1b1b1;
+    padding: 6px;
+    margin-left: 1px; }
+  .search_title_select .inuput_type_day {
+    width: 30%;
+    height: 100%;
+    border: 0.5px solid #b1b1b1;
+    padding: 5px;
+    margin-left: 1px; }
+
+.batu {
+  background-color: #2db4b4;
+  color: white;
+  padding: 5px;
+  border: none;
+  margin-left: 0.5vw; }
+  .batu:hover {
+    color: #5f5e5e;
+    opacity: 0.9;
+    background-color: white;
+    outline: 1px solid #2db4b4; }
+
+/* ボタン（デザインはお好みで） */
+.my_modal_btn {
+  display: block;
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center; }
+
+/* チェックボックスを非表示 */
+#my_modal1 {
+  display: none; }
+
+#my_modal2 {
+  display: none; }
+
+/* モーダル */
+.my_modal_body1 {
+  display: none;
+  position: fixed;
+  z-index: 100000;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  display: none;
+  background-color: #FFF;
+  overflow-y: auto;
+  /* スマホ用スクロール */
+  -webkit-overflow-scrolling: touch;
+  /* お好みで */
+  width: 90%;
+  max-height: 80%;
+  max-width: 600px; }
+
+.my_modal_body2 {
+  display: none;
+  position: fixed;
+  z-index: 100000;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  display: none;
+  background-color: #FFF;
+  overflow-y: auto;
+  /* スマホ用スクロール */
+  -webkit-overflow-scrolling: touch;
+  /* お好みで */
+  width: 95%;
+  max-height: 90%; }
+  .my_modal_body2 .csv_hikaku {
+    width: 100%;
+    height: auto;
+    overflow: auto; }
+    .my_modal_body2 .csv_hikaku .sabun_shousai_box {
+      float: left;
+      background-color: 1px solid #2db4b4;
+      padding: 10px; }
+      .my_modal_body2 .csv_hikaku .sabun_shousai_box a {
+        font-size: 0.8vw;
+        padding: 0;
+        color: #04305a; }
+        .my_modal_body2 .csv_hikaku .sabun_shousai_box a:hover {
+          color: #2db4b4;
+          border-bottom: 1px solid #2db4b4; }
+    .my_modal_body2 .csv_hikaku table {
+      table-layout: fixed; }
+    .my_modal_body2 .csv_hikaku th {
+      width: 10vw;
+      background-color: #2db4b4;
+      color: white;
+      padding: 0;
+      font-size: 0.8vw; }
+    .my_modal_body2 .csv_hikaku td {
+      width: 20%;
+      padding: 0;
+      font-size: 0.7vw; }
+
+/* モーダル内ヘッダー */
+.my_modal_header {
+  padding: 15px 10px;
+  background-color: #04305a;
+  color: #FFF;
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  text-align: center; }
+
+/* クローズアイコン */
+.my_modal_close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  cursor: pointer; }
+
+.my_modal_close_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer; }
+
+.my_modal_close_icon span::before,
+.my_modal_close_icon span::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 84%;
+  height: 16%;
+  margin: -8% 0 0 -42%;
+  background: #FFF; }
+
+.my_modal_close_icon span::before {
+  transform: rotate(-45deg); }
+
+.my_modal_close_icon span::after {
+  transform: rotate(45deg); }
+
+/* コンテンツ表示 */
+.my_modal_content {
+  padding: 5px 10px; }
+  .my_modal_content .toroku_ne {
+    width: 5%;
+    top: 0;
+    left: 1vw;
+    background-color: #2db4b4;
+    color: white;
+    border: none;
+    padding: 3px;
+    font-size: 0.9em; }
+    .my_modal_content .toroku_ne:hover {
+      color: #5f5e5e;
+      opacity: 0.9;
+      background-color: white;
+      outline: 1px solid #2db4b4; }
+  .my_modal_content .button_box_Del {
+    width: 100%; }
+    .my_modal_content .button_box_Del .shain_del_OK {
+      width: 5vw;
+      border: none;
+      background-color: #2db4b4;
+      color: white;
+      padding: 5px; }
+    .my_modal_content .button_box_Del .shain_del_can {
+      width: 5vw;
+      border: none;
+      background-color: #2db4b4;
+      color: white;
+      padding: 2.5px; }
+  .my_modal_content .File_Up {
+    float: left; }
+
+/* 背景を暗くする */
+.my_modal_overlay,
+.my_modal_overlay2 {
+  display: none;
+  position: fixed;
+  z-index: 90000;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-color: #111;
+  opacity: 0.3;
+  cursor: pointer; }
+
+/* チェック時オーバーレイとコンテンツを表示 */
+#my_modal1:checked ~ .my_modal_body1,
+#my_modal1:checked ~ .my_modal_overlay {
+  display: block; }
+
+#my_modal2:checked ~ .my_modal_body2,
+#my_modal2:checked ~ .my_modal_overlay2 {
+  display: block; }
+
+.tablesorter-default .header,
+.tablesorter-default .tablesorter-header {
+  background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
+  background-position: center right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  white-space: normal;
+  padding: 4px 20px 4px 4px; }
+
+.tablesorter-default thead .headerSortUp,
+.tablesorter-default thead .tablesorter-headerAsc,
+.tablesorter-default thead .tablesorter-headerSortUp {
+  background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+  border-bottom: #000 2px solid; }
+
+.tablesorter-default thead .headerSortDown,
+.tablesorter-default thead .tablesorter-headerDesc,
+.tablesorter-default thead .tablesorter-headerSortDown {
+  background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+  border-bottom: #000 2px solid; }
+
+.tablesorter-default thead .sorter-false {
+  background-image: none;
+  cursor: default;
+  padding: 4px; }
+
+.tablesorter-default tfoot .tablesorter-headerAsc,
+.tablesorter-default tfoot .tablesorter-headerDesc,
+.tablesorter-default tfoot .tablesorter-headerSortDown,
+.tablesorter-default tfoot .tablesorter-headerSortUp {
+  border-top: #000 2px solid; }
+
+.tablesorter-default td {
+  border-bottom: #ccc 1px solid;
+  padding: 4px;
+  vertical-align: top;
+  font-size: 0.7vw; }
+  .tablesorter-default td a {
+    color: #746565; }
+
+.tablesorter-default tbody > tr.even:hover > td,
+.tablesorter-default tbody > tr.hover > td,
+.tablesorter-default tbody > tr.odd:hover > td,
+.tablesorter-default tbody > tr:hover > td,
+.tablesorter-default tbody > tr.even:hover > td a,
+.tablesorter-default tbody > tr.hover > td a,
+.tablesorter-default tbody > tr.odd:hover > td a,
+.tablesorter-default tbody > tr:hover > td a {
+  background-color: #1b3f3f;
+  color: white; }

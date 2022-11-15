@@ -1,0 +1,670 @@
+@charset "UTF-8";
+/*-----------------*/
+/* 新規登録ブロック  */
+/*----------------*/
+.label_size_L, .Main .standard_info .companiy_info {
+  width: 80%;
+  height: 2vh;
+  margin-left: 10px;
+  margin-top: 1vh;
+  font-size: 0.8vw; }
+
+.label_size_M_L {
+  width: 50%;
+  height: 2vh;
+  margin-left: 12px;
+  margin-top: 1vh;
+  font-size: 0.8vw; }
+
+.label_size_s, .Main .standard_info .companiy_info {
+  width: 32%;
+  height: 2vh;
+  margin-left: 12px;
+  margin-top: 1vh;
+  font-size: 0.8vw; }
+
+.label_size_M {
+  width: 28%;
+  height: 2vh;
+  margin-left: 12px;
+  margin-top: 1vh;
+  font-size: 0.8vw; }
+
+.label_size_ss, .Main .standard_info .companiy_info {
+  width: 20%;
+  height: 2vh;
+  margin-left: 12px;
+  margin-top: 0.5vh;
+  font-size: 0.8vw; }
+
+.label_size_minimum {
+  width: 10%;
+  height: 2vh;
+  margin-left: 12px;
+  margin-top: 0.5vh;
+  font-size: 0.8vw; }
+
+.label_size_s_jimusho, .Main .jimusho_info .company_jimusho .kubun {
+  width: 100%;
+  height: auto;
+  left: 2vw;
+  position: absolute; }
+
+.label_size_s_Yuso, .Main .Yuso_info .company_yuso .jyusho01, .Main .Yuso_info .company_yuso .jyusho02, .Main .Yuso_info .company_yuso .yakushoku, .Main .Yuso_info .company_yuso .tanto, .Main .Yuso_info .company_yuso .keisho {
+  width: 60%;
+  height: auto;
+  top: 0;
+  left: 2.5vw;
+  position: absolute; }
+
+.label_size_ss_jimu {
+  width: 25%;
+  height: 2vh;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 0.8vw;
+  left: 0.5vw;
+  position: relative; }
+
+.Main {
+  height: 0;
+  /* 基本情報エリア */
+  /* 郵送情報 */
+  /* 事務所情報 */
+  /* 請求情報 */
+  /* 売掛情報 */
+  /* 応対記録 */
+  /* 変更記録 */ }
+  .Main .standard_info {
+    width: 35%;
+    height: 48vh;
+    background-color: #ececeb;
+    border: 1px #7878f8 solid;
+    margin-left: 1vw;
+    top: 2.5vh;
+    left: 0;
+    position: relative; }
+    .Main .standard_info h3 {
+      width: 40%;
+      color: white;
+      background-color: #088546;
+      top: -2vh;
+      margin-left: 1vw;
+      font-size: 1.5vw;
+      text-align: center;
+      position: absolute; }
+    .Main .standard_info .nt_seikyu {
+      width: 100%;
+      height: auto;
+      top: 5vh;
+      left: 5vw;
+      position: absolute;
+      font-size: 0.8vw; }
+      .Main .standard_info .nt_seikyu .text_no {
+        width: 25%;
+        margin-left: -2vw;
+        display: inline-block; }
+        .Main .standard_info .nt_seikyu .text_no .label_size {
+          width: 40%;
+          height: auto; }
+    .Main .standard_info select {
+      width: 13%;
+      height: 3vh;
+      margin-left: -2vw;
+      margin-right: 3vw;
+      font-size: 0.8vw; }
+    .Main .standard_info .companiy_info {
+      width: 95%;
+      display: inline-block;
+      top: 10vh;
+      left: 1vw;
+      position: absolute; }
+      .Main .standard_info .companiy_info select {
+        width: 5%;
+        height: 3vh;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 0.8vw; }
+      .Main .standard_info .companiy_info p .joho {
+        margin-left: 11.5vw;
+        margin-right: 0;
+        font-size: 0.8vw; }
+      .Main .standard_info .companiy_info .furigana {
+        position: relative; }
+      .Main .standard_info .companiy_info .shogo {
+        width: 100%;
+        height: auto;
+        margin-left: 1.5vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .furigana02 {
+        width: 100%;
+        height: auto;
+        top: 8vh;
+        margin-left: -0.2vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .daihyo {
+        width: 100%;
+        height: auto;
+        top: 12vh;
+        left: 0.6vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .yakushoku {
+        width: 100%;
+        height: auto;
+        top: 12vh;
+        left: 17vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .yubin {
+        width: 100%;
+        height: auto;
+        top: 16vh;
+        left: 2.2vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .jyusho01 {
+        width: 100%;
+        height: auto;
+        top: 20vh;
+        left: 1vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .jyusho02 {
+        width: 100%;
+        height: auto;
+        top: 24vh;
+        left: 1vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .tel {
+        width: 70%;
+        height: auto;
+        top: 28vh;
+        left: 1.6vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .FAX {
+        width: 70%;
+        height: auto;
+        top: 28vh;
+        left: 15vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .MAIL {
+        width: 100%;
+        height: auto;
+        top: 32.5vh;
+        left: 1.2vw;
+        position: absolute; }
+      .Main .standard_info .companiy_info .HP {
+        width: 100%;
+        height: auto;
+        top: 32vh;
+        left: 15.5vw;
+        position: absolute; }
+  .Main .Yuso_info {
+    width: 35%;
+    height: 32vh;
+    background-color: #ececeb;
+    border: 1px #7878f8 solid;
+    margin-left: 1vw;
+    top: 6.5vh;
+    left: 0vw;
+    position: relative; }
+    .Main .Yuso_info h3 {
+      width: 40%;
+      color: white;
+      background-color: #088546;
+      top: -3vh;
+      margin-left: 1vw;
+      font-size: 1.5vw;
+      text-align: center;
+      position: absolute; }
+    .Main .Yuso_info .company_yuso {
+      width: 95%;
+      top: 5vh;
+      position: absolute; }
+      .Main .Yuso_info .company_yuso select {
+        width: 25%;
+        height: 3vh;
+        margin-left: 0.45vw;
+        margin-right: 3vw;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+        font-size: 0.5vw; }
+      .Main .Yuso_info .company_yuso .yuso_yubin {
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 2.3vw;
+        position: absolute; }
+      .Main .Yuso_info .company_yuso .jyusho01 {
+        width: 100%;
+        height: auto;
+        top: 4vh;
+        left: 1vw;
+        position: absolute; }
+      .Main .Yuso_info .company_yuso .jyusho02 {
+        width: 100%;
+        height: auto;
+        top: 8vh;
+        left: 1vw;
+        position: absolute; }
+      .Main .Yuso_info .company_yuso .yakushoku {
+        width: 100%;
+        height: auto;
+        top: 12vh;
+        left: 15.5vw;
+        position: absolute;
+        width: 20%; }
+      .Main .Yuso_info .company_yuso .tanto {
+        width: 100%;
+        height: auto;
+        top: 12vh;
+        left: 0.5vw;
+        position: absolute;
+        width: 20%;
+        left: 1vw; }
+      .Main .Yuso_info .company_yuso .keisho {
+        width: 100%;
+        height: auto;
+        top: 16vh;
+        left: 1.3vw;
+        position: absolute;
+        width: 20%;
+        left: 1vw; }
+  .Main .jimusho_info {
+    width: 30%;
+    height: 40vh;
+    background-color: #ececeb;
+    border: 1px #7878f8 solid;
+    margin-left: 1vw;
+    top: -78vh;
+    left: 36vw;
+    position: relative; }
+    .Main .jimusho_info h3 {
+      width: 40%;
+      color: white;
+      background-color: #088546;
+      top: -2vh;
+      margin-left: 1vw;
+      font-size: 1.5vw;
+      text-align: center;
+      position: absolute; }
+    .Main .jimusho_info .company_jimusho {
+      width: 90%;
+      top: 7vh;
+      left: 2vw;
+      position: absolute; }
+      .Main .jimusho_info .company_jimusho .shozoku {
+        width: 10%;
+        height: 2vh;
+        top: -3vh;
+        left: 0.5vw;
+        position: absolute; }
+        .Main .jimusho_info .company_jimusho .shozoku .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .shozoku .kubun {
+          width: 100%;
+          height: auto;
+          left: 2vw;
+          position: absolute; }
+      .Main .jimusho_info .company_jimusho .kubun {
+        width: 10%;
+        height: auto;
+        top: -3vh;
+        left: 8vw;
+        position: absolute;
+        top: -3vh;
+        left: 8vw; }
+      .Main .jimusho_info .company_jimusho .kessan_tuki {
+        width: 100%;
+        height: auto;
+        top: 2vh;
+        left: -0.5vw;
+        position: absolute; }
+        .Main .jimusho_info .company_jimusho .kessan_tuki .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .kessan_tuki .kubun {
+          width: 15%;
+          height: auto;
+          left: 3vw;
+          position: absolute; }
+      .Main .jimusho_info .company_jimusho .keitai {
+        width: 100%;
+        height: auto;
+        top: 2vh;
+        left: 8vw;
+        position: absolute; }
+        .Main .jimusho_info .company_jimusho .keitai .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .keitai .kubun {
+          width: 30%;
+          height: auto;
+          left: 2vw;
+          position: absolute; }
+      .Main .jimusho_info .company_jimusho .uriage_kibo {
+        width: 100%;
+        height: auto;
+        top: 8vh;
+        left: -1.3vw;
+        position: absolute; }
+        .Main .jimusho_info .company_jimusho .uriage_kibo .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .uriage_kibo .kubun {
+          width: 20%;
+          height: auto;
+          left: 4vw;
+          position: absolute; }
+      .Main .jimusho_info .company_jimusho .kyori, .Main .jimusho_info .company_jimusho .nanido {
+        width: 100%;
+        height: auto;
+        top: 8vh;
+        left: 10vw;
+        position: absolute; }
+        .Main .jimusho_info .company_jimusho .kyori .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .nanido .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .kyori .kubun, .Main .jimusho_info .company_jimusho .nanido .kubun {
+          width: 10%;
+          height: auto;
+          left: 2.5vw;
+          position: absolute; }
+      .Main .jimusho_info .company_jimusho .nanido {
+        left: 17vw; }
+      .Main .jimusho_info .company_jimusho .tanntoubu {
+        width: 100%;
+        height: auto;
+        top: 14vh;
+        left: -0.5vw;
+        position: absolute; }
+        .Main .jimusho_info .company_jimusho .tanntoubu .tantobu_input, .Main .jimusho_info .company_jimusho .tanntoubu .tantosha_input {
+          width: 100%;
+          height: auto;
+          top: 0;
+          left: 0;
+          position: absolute; }
+          .Main .jimusho_info .company_jimusho .tanntoubu .tantobu_input .label_size_ss, .Main .jimusho_info .company_jimusho .tanntoubu .tantosha_input .label_size_ss, .Main .jimusho_info .company_jimusho .tanntoubu .tantobu_input .standard_info .companiy_info, .Main .standard_info .jimusho_info .company_jimusho .tanntoubu .tantobu_input .companiy_info, .Main .jimusho_info .company_jimusho .tanntoubu .tantosha_input .standard_info .companiy_info, .Main .standard_info .jimusho_info .company_jimusho .tanntoubu .tantosha_input .companiy_info {
+            width: 25%;
+            height: 2vh;
+            margin-left: 0;
+            margin-top: 0;
+            font-size: 0.8vw;
+            left: 0.5vw;
+            position: relative; }
+        .Main .jimusho_info .company_jimusho .tanntoubu .tantosha_input {
+          top: 4vh; }
+      .Main .jimusho_info .company_jimusho .kanyo_kaishi, .Main .jimusho_info .company_jimusho .kanyo_syuryo {
+        width: 100%;
+        height: auto;
+        top: 25vh;
+        left: -1.2vw;
+        position: absolute; }
+        .Main .jimusho_info .company_jimusho .kanyo_kaishi .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .kanyo_syuryo .label_size_s_jimusho, .Main .jimusho_info .company_jimusho .kanyo_kaishi .kubun, .Main .jimusho_info .company_jimusho .kanyo_syuryo .kubun {
+          width: 30%;
+          height: auto;
+          top: 0;
+          left: 4vw;
+          position: absolute; }
+      .Main .jimusho_info .company_jimusho .kanyo_syuryo {
+        left: 13vw; }
+  .Main .seikyuu_info {
+    width: 30%;
+    height: 40vh;
+    background-color: #ececeb;
+    border: 1px #7878f8 solid;
+    margin-left: 1vw;
+    top: -74vh;
+    left: 36vw;
+    position: relative; }
+    .Main .seikyuu_info h3 {
+      width: 40%;
+      color: white;
+      background-color: #088546;
+      top: -2.5vh;
+      margin-left: 1vw;
+      font-size: 1.5vw;
+      text-align: center;
+      position: absolute; }
+    .Main .seikyuu_info .company_seikyu {
+      width: 90%;
+      height: auto;
+      left: 1vw;
+      top: 2vh;
+      position: absolute;
+      /* 年末調整 */
+      /* 償却資産 */
+      /* その他 */
+      /* 年間合計 */ }
+      .Main .seikyuu_info .company_seikyu .tukiji {
+        width: 90%;
+        height: auto;
+        left: 1vw;
+        top: 2vh;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .tukiji .label_size_s_seikyu {
+          width: 15%;
+          height: auto;
+          left: 2vw;
+          top: 0;
+          position: absolute; }
+        .Main .seikyuu_info .company_seikyu .tukiji p {
+          left: -0.3vw;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .kikan {
+        width: 90%;
+        height: auto;
+        left: 10vw;
+        top: 2vh;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .kikan .label_size_s_seikyu {
+          width: 15%;
+          height: auto;
+          left: 2vw;
+          top: 0;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .kessan {
+        width: 100%;
+        height: auto;
+        top: 6vh;
+        left: 1vw;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .kessan .label_size_s_seikyu {
+          width: 15%;
+          height: auto;
+          left: 2vw;
+          top: 0;
+          position: absolute; }
+        .Main .seikyuu_info .company_seikyu .kessan p {
+          left: -0.3vw;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .shohizei {
+        width: 100%;
+        height: auto;
+        top: 6vh;
+        left: 10vw;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .shohizei .label_size_s_seikyu {
+          width: 20%;
+          height: auto;
+          left: 3vw;
+          top: 0;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .yoteishinkoku {
+        width: 100%;
+        height: auto;
+        top: 10vh;
+        left: -0.5vw;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .yoteishinkoku .label_size_s_seikyu {
+          width: 20%;
+          height: auto;
+          left: 3.5vw;
+          top: 0;
+          position: absolute; }
+        .Main .seikyuu_info .company_seikyu .yoteishinkoku p {
+          left: -0.3vw;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .nenmatutyosei {
+        width: 100%;
+        height: auto;
+        top: 14vh;
+        left: -0.5vw;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .nenmatutyosei .label_size_s_seikyu {
+          width: 30%;
+          height: auto;
+          left: 3.5vw;
+          top: 0;
+          position: absolute; }
+        .Main .seikyuu_info .company_seikyu .nenmatutyosei p {
+          left: -0.3vw;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .shokyaku {
+        width: 100%;
+        height: auto;
+        top: 14vh;
+        left: 13vw;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .shokyaku .label_size_s_seikyu {
+          width: 30%;
+          height: auto;
+          left: 3.5vw;
+          top: 0;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .sonota {
+        width: 100%;
+        height: auto;
+        top: 18vh;
+        left: 3vw;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .sonota p {
+          width: 100%;
+          height: auto;
+          top: 0;
+          left: -3vw;
+          position: absolute; }
+      .Main .seikyuu_info .company_seikyu .nenkangokei {
+        width: 90%;
+        height: auto;
+        top: 34vh;
+        left: -0.5vw;
+        position: absolute; }
+        .Main .seikyuu_info .company_seikyu .nenkangokei .label_size_s_seikyu {
+          width: 50%;
+          height: auto;
+          left: 3.5vw;
+          top: 0;
+          position: absolute; }
+        .Main .seikyuu_info .company_seikyu .nenkangokei p {
+          left: -0.3vw;
+          position: absolute; }
+  .Main .urikake_info {
+    width: 30%;
+    height: 30vh;
+    background-color: #ececeb;
+    border: 1px #7878f8 solid;
+    margin-left: 1vw;
+    top: -158.5vh;
+    left: 67vw;
+    position: relative; }
+    .Main .urikake_info h3 {
+      width: 40%;
+      color: white;
+      background-color: #088546;
+      top: -2vh;
+      margin-left: 1vw;
+      font-size: 1.5vw;
+      text-align: center;
+      position: absolute; }
+    .Main .urikake_info .company_urikake {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      font-size: 0.8vw;
+      top: 5vh;
+      left: 1vw;
+      position: absolute; }
+      .Main .urikake_info .company_urikake .pittari_size_ss {
+        width: 20%;
+        height: 2vh;
+        margin-left: 0;
+        margin-top: 0.5vh;
+        font-size: 0.8vw; }
+      .Main .urikake_info .company_urikake .label_size_M_L {
+        width: 45%;
+        height: 2vh;
+        margin-left: 0;
+        margin-top: 0.5vh;
+        font-size: 0.8vw; }
+      .Main .urikake_info .company_urikake .label_size_s, .Main .urikake_info .company_urikake .standard_info .companiy_info, .Main .standard_info .urikake_info .company_urikake .companiy_info {
+        width: 20%;
+        height: 2vh;
+        margin-left: 0;
+        margin-top: 1vh;
+        font-size: 0.8vw; }
+      .Main .urikake_info .company_urikake select {
+        width: 30%;
+        height: 3vh;
+        margin-left: 0;
+        margin-top: 1vh;
+        font-size: 0.8vw; }
+  .Main .otai_info {
+    width: 30%;
+    height: 25vh;
+    background-color: #ececeb;
+    border: 1px #7878f8 solid;
+    margin-left: 1vw;
+    top: -155.7vh;
+    left: 67vw;
+    position: relative; }
+    .Main .otai_info h3 {
+      width: 40%;
+      color: white;
+      background-color: #088546;
+      top: -2vh;
+      margin-left: 1vw;
+      font-size: 1.5vw;
+      text-align: center;
+      position: absolute; }
+    .Main .otai_info .company_otai {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      top: 5vh;
+      left: 1vw;
+      position: absolute;
+      font-size: 0.8vw; }
+      .Main .otai_info .company_otai .pittari_size_ss {
+        width: 20%;
+        height: 2vh;
+        margin-left: 0;
+        margin-top: 0.5vh;
+        font-size: 0.8vw; }
+      .Main .otai_info .company_otai .label_size_M_L {
+        width: 70%;
+        height: 2vh;
+        margin-left: 0;
+        margin-top: 0.5vh;
+        font-size: 0.8vw; }
+  .Main .henko_info {
+    width: 30%;
+    height: 23vh;
+    background-color: #ececeb;
+    border: 1px #7878f8 solid;
+    margin-left: 1vw;
+    top: -153vh;
+    left: 67vw;
+    position: relative; }
+    .Main .henko_info h3 {
+      width: 40%;
+      color: white;
+      background-color: #088546;
+      top: -2vh;
+      margin-left: 1vw;
+      font-size: 1.5vw;
+      text-align: center;
+      position: absolute; }
+    .Main .henko_info .company_henko {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      top: 3vh;
+      left: 1vw;
+      position: absolute;
+      font-size: 0.8vw; }
+      .Main .henko_info .company_henko .pittari_size_ss {
+        width: 20%;
+        height: 2vh;
+        margin-left: 0;
+        margin-top: 0.5vh;
+        font-size: 0.8vw; }
+      .Main .henko_info .company_henko .label_size_M_L {
+        width: 45%;
+        height: 2vh;
+        margin-left: 0;
+        margin-top: 0.5vh;
+        font-size: 0.8vw; }

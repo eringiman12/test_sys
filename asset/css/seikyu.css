@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*---------------*/
+/*---予実管理--- */
+/*--------------*/
+/*---テーブルの作成----*/
+.seikyu_box {
+  width: 98%;
+  height: 80vh;
+  top: 0;
+  position: relative;
+  overflow: auto; }
+
+table.seikyu_table {
+  width: 97%;
+  height: auto;
+  text-align: center;
+  border-collapse: collapse;
+  left: 2.5vw;
+  position: absolute;
+  font-size: 0.7vw;
+  margin-bottom: 10vh;
+  overflow: auto; }
+
+table th {
+  border: 1px #7878f8 solid;
+  padding: 5px; }

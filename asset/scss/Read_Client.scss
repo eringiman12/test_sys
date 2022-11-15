@@ -1,0 +1,891 @@
+/*-----------------*/
+/* 顧客リードオンリー画面  */
+/*----------------*/
+
+.Client_Main_Table {
+    clear: both;
+    display: flex;
+
+    table {
+        width: 40%;
+        margin-left: 0.5px;
+        margin-top: -3.5px;
+        margin-bottom: 5px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        
+        .Daimoku {
+          height: 5px;
+          font-size: 1em;
+          color: white; 
+          background-color: rgb(5, 77, 77);
+          padding: 5px;
+        }
+      
+        .komoku {
+          width: 7px;
+          height: auto;
+          background-color: rgb(45, 180, 180);
+          font-size: 0.8em;
+          color: white;
+        }
+
+        .gyomu_komoku {
+            text-align: left;
+        }
+
+        th {
+          padding: 5px;
+          border: 1px solid rgb(219, 219, 219);
+        }
+
+        td {
+
+          font-size: 0.8vw;
+          padding: 5px;
+          border: 1px solid rgb(219, 219, 219);
+        }
+      }
+      
+  }
+
+.Client_Yaritori_Block {
+    width: 95%;
+    border-top: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    margin: {
+        top: 10vh;
+        left: 2.5vw;
+    }
+
+    .reach_Edita  {
+        width: 40%;
+        height: 0vh;
+        background-color: rgb(9, 145, 145);
+        margin : {
+            top: 15vh;
+            left: 5vw;
+            bottom: 30vh; 
+        }
+    
+        .Daimoku {
+            width: 80%;
+            height: auto;
+            font-size: 1.2vw; 
+            color: white; 
+            background-color: rgb(5, 77, 77);
+            padding: 5px;
+            top: -15vh;
+            left: -5vw;
+            position: relative;
+            margin: {
+                top: 20px;
+                bottom: -10px;
+            }
+            text-align: center;
+        }
+    
+        .Button_Box {
+            clear: both;
+            width: 35%;
+            position: absolute;
+            .btn-border {
+                cursor: pointer;
+                font-size: 1vw;
+                background-color: rgb(45, 180, 180);
+                color: white;
+                padding: 5px;
+                border: none;
+                text-align: center;
+                position: relative;
+                border-radius: 5px;
+                &:hover {
+                    outline: 1px rgb(45, 180, 180) solid;
+                    background-color: white;
+                    color: rgb(45, 180, 180);
+                }
+            }
+        }
+    
+    
+    }
+
+    .yaritori_search {
+        width: 60%;
+        margin-left: 0;
+        top: -38vh;
+        left: 35vw;
+        position: relative;
+        .Search_Button_Post {
+            display: block;
+            width: 100%;
+            cursor: pointer;
+            font-size: 1vw;
+            background-color: rgb(45, 180, 180);
+            color: white;
+            padding: 5px;
+            border: none;
+            text-align: center;
+            z-index: 1;
+            border-radius: 5px;
+            &:hover {
+                border: 1px rgb(45, 180, 180) solid;
+                background-color: white;
+                color: rgb(45, 180, 180);
+            }
+        }
+
+        table {
+            width: 100%;
+            margin-left: 0.5px;
+            margin-top: -3.5px;
+            margin-bottom: 5px;
+            border-collapse: collapse;
+            table-layout: fixed;
+
+            .Last {
+                background-color: white;
+                border: none;
+            }
+
+            th {
+                width: 100%;
+                height: 5px;
+                font-size: 0.8em;
+                color: white; 
+                background-color: rgb(5, 77, 77);
+                border: 1px rgb(5, 77, 77) solid;
+                padding: 10px;
+                top: 0;
+                z-index: 10;
+                &:nth-child(4) {
+                    border-right: 1px white solid;
+                    }
+                &:nth-child(3) {
+                    border-right: 1px white solid;
+                    }
+                    &:nth-child(2) {
+                    border-right: 1px white solid;
+                    }
+                    &:nth-child(1) {
+                    border-right: 1px white solid;
+                    }
+            }
+    
+            td {
+                font-size: 0.8vw;
+                margin-top: 10vh;
+                padding: 5px;
+                border: 1px #f3ebeb solid;
+                .input_with {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    margin-left: 0.1vw;
+                    display: block;
+                    padding: 10px;
+                    border: 1px #f3ebeb solid;
+                }
+            }
+        }
+    }
+    
+    .yaritori {
+        width: 65%;
+        height: 70vh;
+        margin-left: 33vw;      
+        margin-top: -35vh;
+        margin-bottom: 20vh;
+        overflow:auto;
+
+       
+        .yaritori_naiyo {
+            width: 95%;
+            height: auto;
+            background-color: white;
+            margin-top: 2vh;
+            margin-left: 1vw;
+            margin-bottom: 2vh;
+            border-radius: 10px 10px 10px 10px;
+            border: 0.5px solid rgb(219, 219, 219);
+            padding: 10px;
+            position: relative;
+            .item_area {
+                text-align: right;
+            }
+    
+            .title_mode {
+                width: 100%;
+                background-color: rgb(45, 180, 180);
+                color: white;
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 10px;
+                border-radius: 9px 9px 0 0;
+            }
+    
+        }
+        
+        .yaritori_naiyo02 {
+            width: 95%;
+            height: auto;
+            background-color: white;
+            margin-top: 2vh;
+            margin-left: 1vw;
+            margin-bottom: 2vh;
+            border-radius: 10px 10px 10px 10px;
+            border: 1px solid rgb(247, 209, 40);
+            padding: 10px;
+            position: relative;
+            .item_area {
+                text-align: right;
+            }
+    
+            .title_mode {
+                width: 100%;
+                background-color: rgb(45, 180, 180);
+                color: white;
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 5px;
+                border-radius: 10px 10px 0 0;
+            }
+    
+        }
+        
+    }
+          
+    .Con_hen_Box {
+        width: 40%;
+        height: 5vh;
+        top: 1vh;
+        left: 35vw;
+        position: relative;
+    
+        .Lock {
+            width: 15%;
+            cursor: pointer;
+            font-size: 1vw;
+            background-color: rgb(45, 180, 180);
+            color: white;
+            padding: 5px;
+            padding-left: 5px;
+            border: none;
+            text-align: center;
+            top:0;
+            left: 7vw;
+            position: absolute;
+            z-index: 1;
+            border-radius: 5px;
+            &:hover {
+                border: 1px rgb(45, 180, 180) solid;
+                background-color: white;
+                color: rgb(45, 180, 180);
+            }
+        }
+        
+        .hensyu {
+            width: 15%;
+            cursor: pointer;
+            font-size: 1vw;
+            background-color: rgb(45, 180, 180);
+            color: white;
+            padding: 5px;
+            border: none;
+            text-align: center;
+            top:0;
+            left: 11vw;
+            position: absolute;
+            z-index: 1;
+            border-radius: 5px;
+            &:hover {
+                border: 1px rgb(45, 180, 180) solid;
+                background-color: white;
+                color: rgb(45, 180, 180);
+            }
+        }
+        
+        .del {
+            width: 15%;
+            cursor: pointer;
+            font-size: 1vw;
+            background-color: rgb(45, 180, 180);
+            color: white;
+            padding: 5px;
+            border: none;
+            text-align: center;
+            z-index: 1;
+            border-radius: 5px;
+            top:0;
+            left: 15vw;
+            position: absolute;
+            &:hover {
+                border: 1px rgb(45, 180, 180) solid;
+                background-color: white;
+                color: rgb(45, 180, 180);
+            }
+        }
+    
+        .Lock_kaijyo {
+            width: 15%;
+            cursor: pointer;
+            font-size: 1vw;
+            background-color: rgb(45, 180, 180);
+            color: white;
+            padding: 5px;
+            border: none;
+            text-align: center;
+            top:0;
+            left: 13.2vw;
+            position: absolute;
+            z-index: 1000000;
+            border-radius: 5px;
+            &:hover {
+                border: 1px rgb(45, 180, 180) solid;
+                background-color: white;
+                color: rgb(45, 180, 180);
+            }
+        }
+    } 
+
+    .contet {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    
+        .naiyo_content {
+            width: 100%;
+            border: 1px solid rgb(243, 241, 241);
+            p {
+                margin-top: 20vh;
+            }
+            margin-bottom: 3vh;
+            padding:40px;
+            box-shadow: 1px 1px 1px 0 rgba(60, 194, 235, 0.5);
+            border-radius: 10px;
+        }
+    
+    
+        .File_block {
+            width:40%;
+            font-size:0;
+            position: relative;
+
+            
+            a {
+                text-align: center;
+            }
+    
+            .File_Path {
+                display: block;
+                font-size:1vw;
+                width: 100%;
+                padding: 5px;
+                margin-bottom:5px;
+                background-color: rgb(45, 180, 180);
+                color: white;
+                border: none;
+                border-radius: px;
+                &:hover {
+                    outline: 1px rgb(45, 180, 180) solid;
+                    background-color: white;
+                    color: rgb(45, 180, 180);
+                    cursor: pointer;
+                } 
+
+            }
+        }
+    } 
+}
+
+
+.rich_editer {
+    margin-top: -10vh;
+    margin-left: -5vw;
+}
+
+.Uploader {
+    width: 90%;
+    position: relative;
+
+    margin: {
+        top: 15vh;
+        left: 5vw;
+        bottom: 2vh;
+    }
+
+    table {
+        width: 100%;
+        margin-left: 0.5px;
+        margin-top: -3.5px;
+        margin-bottom: 5px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        
+        th {
+            width: 100%;
+            height: 5px;
+            font-size: 0.8em;
+            color: white; 
+            background-color: rgb(5, 77, 77);
+            border: 1px solid rgb(219, 219, 219);
+            padding: 5px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .th_hover {
+            width: 100%;
+            height: 5px;
+            font-size: 0.8em;
+            color: white; 
+            background-color: rgb(5, 77, 77);
+            border: 1px solid rgb(219, 219, 219);
+            padding: 5px;
+            top: 0;
+            z-index: 10;
+            &:hover {
+                background-color: #fbfcfd;
+                color:rgb(45, 180, 180) ; 
+                outline: 1px solid rgb(45, 180, 180);
+                cursor: pointer;
+            }
+        }
+      
+        .komoku {
+          width: 7px;
+          height: auto;
+          background-color: rgb(45, 180, 180);
+          font-size: 0.8em;
+          color: white;
+        }
+
+        .gyomu_komoku {
+            text-align: left;
+        }
+
+        td {
+          font-size: 0.8vw;
+          padding: 15px;
+          border: 1px solid rgb(219, 219, 219);
+          margin-top: 10vh;
+                  /*スクロールボタンの指定*/
+          a {   
+                margin-left:5vw;
+                font-size: 1vw;
+                font-weight: bold;
+                color: rgb(6, 129, 129) ;
+                text-decoration: none;
+            
+           }
+        }
+      
+        .seikei {
+            text-align: center;
+        }
+    }
+
+    .Daimoku {
+        width: 33%;
+        height: auto;
+        font-size: 1.2vw; 
+        color: white; 
+        background-color: rgb(5, 77, 77);
+        padding: 5px;
+        top: -15vh;
+        left: -3.5vw;
+        position: relative;
+        margin: {
+            top: 0;
+            bottom: -10px;
+            left: 1vw;
+        }
+        text-align: center;
+    }
+
+    .Button_Box_shiryou {
+        width: 30%;
+        top: -2vh;
+        position: absolute;
+        .Upload_button_send {
+            background-color: rgb(45, 180, 180);
+            color: white;
+            padding: 5px;
+            border: none;
+            text-align: center;
+            &:hover {
+                outline: 1px solid  rgb(45, 180, 180);
+                background-color: white;
+                color: rgb(45, 180, 180);
+            }
+        }
+    
+    }
+        
+
+    .Upload_Block {
+        width: 100%;
+        height:82vh;
+        top: 0;
+        left: 0;
+        position: relative;
+        // border: 0.5px solid rgb(219, 219, 219);
+        overflow: auto;
+        
+    }
+
+    .File_DL {
+        padding: 1.2vh;
+        top: 0.2vh;
+        position: relative;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(45, 180, 180);
+        color: white;
+        cursor: pointer;
+        margin-left: 0;
+        &:hover {
+            outline: 1px solid  rgb(45, 180, 180);
+            background-color: white;
+            color: rgb(45, 180, 180);
+        }
+    }
+
+    .open {
+        cursor:pointer;
+        display: block;
+        width: 3%;
+        height: 6%;
+        background-color: rgb(45, 180, 180);
+        top: 5vh;
+        left: 73vw;
+        position: relative;
+        color: white;
+        border-radius: 5px;
+    
+        &:hover {
+            outline: 1px solid  rgb(45, 180, 180);
+            background-color: white;
+            color: rgb(45, 180, 180);
+        }
+    
+        .icon-bin:before {
+            width: 100%;
+            content: "\e9ac";
+            font-size: 1.3vw;
+            left: 0.6vw;
+            top: 1vh;
+            position: absolute;
+        }
+    }
+
+}
+
+.icon-pencil2:before {
+    content: "\e906";
+    font-size: 1.2vw;
+}
+
+.icon-lock:before {
+    content: "\e98f";
+    font-size: 1.2vw;
+}
+
+.icon-bin:before {
+    content: "\e9ac";
+    font-size: 1.2vw;
+}
+
+.icon-unlocked:before {
+    content: "\e990";
+    font-size: 1.2vw;
+}
+
+.icon-unlocked:before {
+    content: "\e990";
+    font-size: 1.2vw;
+}
+
+.icon-download2:before {
+    content: "\e9c5";
+    font-size: 1.1vw;
+}
+
+.icon-eye:before {
+    content: "\e9ce";
+    font-size: 1.1vw;
+}
+
+
+
+#pop-up {
+	display: none; /* label でコントロールするので input は非表示に */
+}
+
+.overlay {
+	display: none; /* input にチェックが入るまでは非表示に */
+}
+
+#pop-up:checked + .overlay {
+	display: block;
+	z-index: 9999;
+	background-color: #00000070;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.window {
+	width: 90vw;
+	max-width: 380px;
+	height: 240px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+    p {
+        width: 100%;
+        padding: 10px;
+        position: absolute;
+    }
+
+    .File_delete {
+        width: 50%;
+        float: right;
+        margin-top: 0;
+        left: 0;
+        top: 8vh;
+        position: relative;
+        background-color: rgb(45, 180, 180);
+        border: none;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        z-index: 2;
+        &:hover {
+            outline: 1px solid  rgb(45, 180, 180);
+            background-color: white;
+            color: rgb(45, 180, 180);
+        }
+    }
+}
+
+
+.modal-wrapper {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 60px 10px;
+    text-align: center;
+}
+
+.modal-wrapper:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s;
+}
+
+.modal-wrapper:target {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-wrapper::after {
+    display: inline-block;
+    height: 100%;
+    margin-left: -.05em;
+    vertical-align: middle;
+    content: ""
+}
+
+.modal-wrapper .modal-window {
+    box-sizing: border-box;
+    display: inline-block;
+    z-index: 20;
+    position: relative;
+    width: 90%;
+    height: 80%;
+    padding: 30px 30px 15px;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .6);
+    vertical-align: middle;
+    overflow:auto;
+    z-index: 100000000000000000;
+}
+
+.modal-wrapper .modal-window .modal-content {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-overlay {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8)
+}
+
+.modal-wrapper .modal-close {
+z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    color: #95979c !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0
+}
+
+.modal-wrapper .modal-close:hover {
+color: #2b2e38 !important
+}
+
+.trash_mark {
+    width: 15%;
+    background-color: rgb(45, 180, 180);
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    &:hover {
+        outline: 1px solid  rgb(45, 180, 180);
+        background-color: white;
+        color: rgb(45, 180, 180);
+    }
+}
+
+.search_top {
+    width: 100%;
+    height: auto;
+    top:0;
+    left: 2vw;
+    margin-bottom: 3vh;
+    position:relative;
+
+    table {
+        width: 95%;
+        padding: 10px;
+        border-collapse: collapse;
+        position: relative;
+
+        th  {
+            background-color: rgb(45, 180, 180);
+            border: 0.5px rgb(168, 166, 166) solid;
+            color: white;
+            font-size: 1vw;
+        }
+
+        td  {
+            width: 10%;
+            border: 0.5px rgb(168, 166, 166) solid;
+            padding: 4px;
+
+            input {
+                width: 100%;
+                height: 4vh;
+            }
+
+
+        }
+
+        .Money {
+            text-align: right;
+            padding: 5px;
+        }
+
+        .kanyo {
+            width: 1%;
+        }
+        
+        .td_title {
+            background-color: #364f6b;
+            padding-left: 1vw;
+            color: white;
+            font-size: 0.8vw;
+        } 
+
+    }
+      
+    .submit_button_box {
+        width: 40%;
+        margin-top: 0;
+        margin-left: 70vw;
+        text-align: center;
+        top: 50vh;
+        left: -18vw;
+        position: absolute;
+        .btn-flat-border {
+            font-size: 1.1vw;
+            width: 40%;
+            height: 5vh;
+            display: inline-block;
+            padding: 0.3em 1em;
+            text-decoration: none;
+            background-color: rgb(45, 180, 180);
+            color: white;
+            font-size: 1vw;
+            border: none;
+            transition: .4s;
+            position: relative;
+            &:hover {
+                color: rgb(95, 94, 94);
+                opacity: 0.9;
+                background-color: white;
+                border: none;
+                outline: 1px solid rgb(45, 180, 180);
+                position: relative;
+            }
+            
+        }
+
+        .btn-flat-border02 {
+            font-size: 1.1vw;
+            width: 40%;
+            height: 5vh;
+            display: inline-block;
+            padding: 0.3em 1em;
+            text-decoration: none;
+            background-color: rgb(45, 180, 180);
+            color: white;
+            font-size: 1vw;
+            border: none;
+            transition: .4s;
+            top: 90vh;
+            position: relative;
+            &:hover {
+                color: rgb(95, 94, 94);
+                opacity: 0.9;
+                background-color: white;
+                border: none;
+                outline: 1px solid rgb(45, 180, 180);
+                position: relative;
+            }
+            
+        }
+    }
+    
+}
+

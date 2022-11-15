@@ -1,0 +1,299 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+img,
+ul,
+li,
+table,
+tr,
+th,
+td,
+tbody,
+footer,
+header,
+main,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    list-style: none;
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
+        "MS PGothic", sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 1vw;
+}
+
+p {
+    font-size: 0.8vw;
+    display: inline;
+}
+
+ul {
+    list-style: none;
+}
+
+// ヘッダーブロック
+#RealtimeClockArea {
+    font-size: 0.8vw;
+    color: white;
+    float: left;
+    margin-left: 7vw;
+}
+
+.Today_01 {
+    font-size: 0.8vw;
+    color: white;
+
+    z-index: 1;
+    position: absolute;
+}
+
+// div#digital-clock {
+//     font-weight: bold;
+//     font-size: 25px;
+//     color: white;
+//     background: gray url(earth.png) no-repeat center top;
+//     text-align: center;
+//     width: 500px;
+//     padding: 40px 0 15px 0;
+//     border: 2px #000000 solid;
+// }
+
+.container {
+    background-color: rgb(24, 41, 87);
+    margin-bottom: 2vh;
+}
+.title {
+    margin: 0 0 10px 0;
+    color: #e2e2e2;
+    text-align: center;
+}
+.caption {
+    margin: 0 0 10px 0;
+    color: #dddddd;
+    line-height: 1.5;
+    text-align: center;
+}
+.menu {
+    .mokuji {
+        top: 2vh;
+        left: -20vw;
+        position: absolute;
+    }
+    left: 20vw;
+    position: relative;
+    /* width: 100%; */
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .jisha {
+        font-size: 0.9vw;
+        top: 0;
+        margin-left: 0;
+        left: -4vw;
+        position: absolute;
+
+        a {
+            color: white;
+        }
+    }
+}
+.menu > li {
+    float: left;
+    width: 15%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(24, 41, 87);
+    text-align: center;
+}
+.menu li {
+    list-style: none;
+}
+.menu > li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.menu-second-level {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10000000;
+}
+
+ul.menu-third-level {
+    visibility: hidden;
+    opacity: 0;
+}
+
+ul.menu-fourth-level {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* ホバー */
+.menu > li:hover {
+    background: #072a24;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.menu-second-level li {
+    border-top: 1px solid #111;
+}
+.menu-third-level li {
+    border-top: 1px solid #111;
+}
+.menu-second-level li a:hover {
+    background: #111;
+}
+.menu-third-level li a:hover {
+    background: #2a1f1f;
+}
+.menu-fourth-level li a:hover {
+    background: #1d0f0f;
+}
+
+.init-bottom {
+    font-size: 0.7vw;
+}
+
+.User_Name {
+    font-size: 1vw;
+    color: white;
+}
+
+/* 下矢印 */
+.init-bottom:after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 0 0 15px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* floatクリア */
+.menu:before,
+.menu:after {
+    content: " ";
+    display: table;
+}
+.menu:after {
+    clear: both;
+}
+
+.menu {
+    *zoom: 1;
+}
+.menu > li.menu-multi {
+    left: 20vw;
+    position: relative;
+}
+
+li.menu-multi ul.menu-second-level {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background: #072a24;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+li.menu-multi:hover ul.menu-second-level {
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+}
+
+li.menu-multi ul.menu-second-level li {
+    position: relative;
+}
+
+li.menu-multi ul.menu-second-level li:hover {
+    background: #111;
+}
+
+li.menu-multi ul.menu-second-level li ul.menu-third-level {
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    width: 100%;
+    background: #111;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+li.menu-multi ul.menu-second-level li:hover ul.menu-third-level {
+    visibility: visible;
+    opacity: 1;
+}
+
+li.menu-multi ul.menu-second-level li ul.menu-third-level li {
+    position: relative;
+}
+
+li.menu-multi ul.menu-second-level li ul.menu-third-level li:hover {
+    background: #2a1f1f;
+}
+
+li.menu-multi ul.menu-second-level li ul.menu-third-level li ul.menu-fourth-level {
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    width: 100%;
+    background: #2a1f1f;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+li.menu-multi ul.menu-second-level li ul.menu-third-level li:hover ul.menu-fourth-level {
+    visibility: visible;
+    opacity: 1;
+}
+.init-right {
+    font-size: 0.8vw;
+}
+.init-right:after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 0 0 15px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.Daimoku {
+    font-size: 1vw;
+}

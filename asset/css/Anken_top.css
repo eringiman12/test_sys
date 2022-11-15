@@ -1,0 +1,24 @@
+.Input_L {
+  width: 90%; }
+
+.Project_Create_form {
+  margin-top: 80px;
+  position: relative; }
+  .Project_Create_form .Project_name {
+    width: 70%;
+    margin-top: 0; }
+  .Project_Create_form .Project_time {
+    width: 70%;
+    margin-top: 0; }
+  .Project_Create_form table {
+    width: 90%;
+    height: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 0 auto; }
+    .Project_Create_form table td {
+      font-size: 0.8vw;
+      padding: 3px 10px;
+      border-bottom: 1px black solid;
+      border-right: 1px black solid;
+      text-align: center; }
